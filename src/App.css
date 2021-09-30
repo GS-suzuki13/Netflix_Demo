@@ -20,13 +20,13 @@ footer {
     text-align: right;
     position: absolute;
     right: 30px;
-    opacity: 50%;
+    opacity: 90%;
 }
 
 .links {
     margin: 50px 30px;
     text-align: left;
-    opacity: 50%;
+    opacity: 90%;
 }
 
 .links a {
