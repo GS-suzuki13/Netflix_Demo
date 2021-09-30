@@ -4,6 +4,8 @@ import Tmdb from "./Tmdb";
 import MovieRow from "./components/MovieRow";
 import FeatureMovie from "./components/FeatureMovies";
 import Header from "./components/Header";
+import InstagramIcon from '@material-ui/icons/Instagram';
+import {GitHub, LinkedIn, WhatsApp} from "@material-ui/icons";
 
 
 export default () => {
@@ -59,8 +61,8 @@ export default () => {
             </section>
 
             <footer>
-                Desenvolvido Por Gustavo Suzuki <span role="img" aria-label="network">🌐</span><br/>
                 Direitos de imagem para Netflix<br/>
+                Desenvolvido por Gustavo Suzuki<br/>
                 Dados pego do site Themoviedb.og<br/>
             </footer>
 
@@ -69,6 +71,20 @@ export default () => {
                 <img src="https://media.filmelier.com/noticias/br/2020/03/Netflix_LoadTime.gif"/>
             </div>
             }
+            <div className="links">
+                <a href="https://www.instagram.com/gustavosuzuki3/">
+                    <InstagramIcon style={{fontSize: 30}}/><br/>
+                </a>
+                <a href="https://www.linkedin.com/in/gustavo-galhardo-suzuki-858189163/">
+                    <LinkedIn style={{fontSize: 30}}/><br/>
+                </a>
+                <a href="https://github.com/GS-suzuki13">
+                    <GitHub style={{fontSize: 30}}/><br/>
+                </a>
+                <a href="https://api.whatsapp.com/send/?phone=554797609807&text&app_absent=0">
+                    <WhatsApp style={{fontSize: 30}}/>
+                </a>
+            </div>
         </div>
     );
 }

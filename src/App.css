@@ -17,7 +17,20 @@ body {
 
 footer {
     margin: 50px 0;
-    text-align: center;
+    text-align: right;
+    position: absolute;
+    right: 30px;
+    opacity: 50%;
+}
+
+.links {
+    margin: 50px 30px;
+    text-align: left;
+    opacity: 50%;
+}
+
+.links a {
+    color: #fff;
 }
 
 .loading {
@@ -31,4 +44,12 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+@media (max-width: 760px) {
+    .footer,
+    .liks {
+        font-size: 100px;
+    }
+
 }
